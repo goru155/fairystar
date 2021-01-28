@@ -50,7 +50,6 @@ function draw() {
 
 	if(star.isTouching(fairy)){
 	star.velocityY=0;
-	sound.play()
 	}
 
   	drawSprites();
